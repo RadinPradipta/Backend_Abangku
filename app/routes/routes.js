@@ -8,6 +8,7 @@ import cartRouter from "./cart_routes.js";
 import orderRouter from "./order_routes.js";
 import ongkirRouter from "./destination_routes.js";
 import paymentRouter from "./payment_routes.js";
+import testRouter from "./testing_routes.js";
 
 const router = Router();
 
@@ -20,5 +21,6 @@ router.use(cartRouter);
 router.use(orderRouter);
 router.use(ongkirRouter);
 router.use(paymentRouter);
+router.use(testRouter);
 
 export default router;
